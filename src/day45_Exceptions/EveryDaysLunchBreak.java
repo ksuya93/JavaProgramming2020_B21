@@ -10,9 +10,13 @@ public class EveryDaysLunchBreak {
         LocalTime currentTime = LocalTime.now();
         LocalTime lunchTime = LocalTime.of(1,0);
 
-        if(currentTime.equals(lunchTime)){
-
+        if(!currentTime.equals(lunchTime)){
+            throw new LunchBreakException("MUHTAR WE NEED TO GO LUNCH!!!!");
+        }else{
+            System.out.println("Continue");
         }
+
+
 
     }
 
