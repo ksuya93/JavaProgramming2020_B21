@@ -16,7 +16,6 @@ public class Phone extends Device{
 
     public void text(long number){
         System.out.println(brand+" "+ model +" is texting "+number);
-
     }
 
 
