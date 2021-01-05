@@ -3,7 +3,7 @@ package day45_Exceptions.PhoneTask;
 public class Device  {
 
     public String brand, model;
-    public final String country;
+    public String country;
     public double price;
 
     public Device(String brand, String model, String country, double price){
@@ -17,10 +17,10 @@ public class Device  {
     @Override
     public String toString() {
         return "{" +
-                "brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                ", country='" + country + '\'' +
-                ", price=" + price +
+                "brand= '" + brand + '\'' +
+                ", model= '" + model + '\'' +
+                ", country= '" + country + '\'' +
+                ", price= $" + price +
                 '}';
     }
 
