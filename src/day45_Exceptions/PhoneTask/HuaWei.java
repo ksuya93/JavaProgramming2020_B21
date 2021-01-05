@@ -2,7 +2,7 @@ package day45_Exceptions.PhoneTask;
 
 public final class HuaWei extends Phone{
 
-    public HuaWei( String model, String country, double price) {
+    public HuaWei( String model, double price) {
         super("HuaWei", model, "China", price);
     }
 
