@@ -6,6 +6,10 @@ public class Circle extends Shape{
 
     public Circle(double r) {
         super("Circle"); // set the name of the shape
+        if(r <= 0) { //if radius of circle is invalid
+            throw new RuntimeException("No Such a Circle with a radius of: "+r);
+        }
+
         setR(r);
         setD(  r * 2);
         //this.r = r;
