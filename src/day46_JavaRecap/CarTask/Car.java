@@ -44,7 +44,13 @@ public class Car {
                 '}';
     }
 
-    public
+    public void start(){
+        System.out.println(brand+" "+model+"  is starting");
+    }
+
+    public final void drive(){
+        System.out.println("driving "+brand+" "+model);
+    }
 
 
 }
