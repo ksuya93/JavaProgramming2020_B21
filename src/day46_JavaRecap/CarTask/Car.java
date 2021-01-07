@@ -34,6 +34,18 @@ public class Car {
         this.price = price;
     }
 
+    public String toString() {
+        return "Car{" +
+                "brand= '" + brand + '\'' +
+                ", model= '" + model + '\'' +
+                ", color= '" + color + '\'' +
+                ", year= " + year +
+                ", price= $" + price +
+                '}';
+    }
+
+    public
+
 
 }
 /*
