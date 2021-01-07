@@ -1,6 +1,6 @@
 package day46_JavaRecap.CarTask;
 
-public class Mercedes extends Car {
+public final class Mercedes extends Car {
 
 
     public Mercedes( String model, String color, int year, double price) {
