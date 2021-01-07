@@ -1,6 +1,6 @@
 package day46_JavaRecap.CarTask;
 
-public class BMW extends Car {
+public final class BMW extends Car {
 
     public BMW( String model, String color, int year, double price) {
         super("BMW", model, color, year, price);
