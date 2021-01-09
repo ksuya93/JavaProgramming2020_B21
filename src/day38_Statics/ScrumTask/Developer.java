@@ -1,6 +1,6 @@
 package day38_Statics.ScrumTask;
 
-public class Developer {
+public final class Developer  {
 
     public String name, ID, jobTitle, companyName;
     public double salary;

@@ -1,6 +1,6 @@
 package day38_Statics.ScrumTask;
 
-public class Tester {
+public final class Tester {
 
     public String name, ID, jobTitle, companyName;
     public double salary;
