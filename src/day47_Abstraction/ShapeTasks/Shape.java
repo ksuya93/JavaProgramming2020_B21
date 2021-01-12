@@ -15,11 +15,3 @@ public abstract class Shape {  // not concrete
 
 }
 
-
-
-class Test{
-    public static void main(String[] args) {
-    //    Shape obj = new Shape("Shape");
-        Rectangle obj2 = new Rectangle(4, 5);
-    }
-}
