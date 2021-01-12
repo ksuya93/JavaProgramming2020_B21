@@ -1,6 +1,6 @@
 package day47_Abstraction.ShapeTasks;
 
-public class Square extends Shape {
+public class Square extends Shape { // IS A
     public double side;
 
     public Square(double side) {
@@ -9,12 +9,11 @@ public class Square extends Shape {
     }
 
 
-    @Override
     public double area() {
         return side * side;
     }
 
-    @Override
+
     public double perimeter() {
         return side * 4;
     }
