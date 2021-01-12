@@ -16,5 +16,17 @@ public abstract class Employee extends Person{
     public abstract void work();
     //  public abstract void sleep();
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "jobTitle='" + jobTitle + '\'' +
+                ", name='" + name + '\'' +
+                ", ID='" + ID + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", salary=" + salary +
+                '}';
+    }
+
 
 }
