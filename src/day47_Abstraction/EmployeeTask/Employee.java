@@ -13,8 +13,8 @@ public abstract class Employee extends Person{
     }
 
 
-    public abstract void work();
-    //  public abstract void sleep();
+    abstract void work();
+ //protected abstract void sleep();
 
     @Override
     public String toString() {

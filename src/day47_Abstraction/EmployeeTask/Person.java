@@ -12,7 +12,7 @@ public abstract class Person {
         this.gender = gender;
     }
 
-    public abstract void sleep();
+    protected abstract void sleep();
 
 
 }
