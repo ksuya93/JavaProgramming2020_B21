@@ -24,6 +24,12 @@ public class Zoo {
         cat.play();
         shark.play();
 
+        cat.scratch();
+        dog.bark();
+
+    //    hunt();
+
+
 
     }
 }
