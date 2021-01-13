@@ -11,6 +11,15 @@ public final class Cat extends Animal {
     }
 
     @Override
+    protected void play() {
+        System.out.println("plays with mouse");
+    }
+
+    public void scratch(){
+        System.out.println(name+" is scratching");
+    }
+
+    @Override
     public String toString() {
         return "Cat"+super.toString();
     }

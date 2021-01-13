@@ -11,6 +11,15 @@ public final class Shark extends Animal {
     }
 
     @Override
+    protected void play() {
+        System.out.println("plays with people");
+    }
+
+    public void eatHuman(){
+        System.out.println("Sharks eat human");
+    }
+
+    @Override
     public String toString() {
         return "Shark"+super.toString();
     }

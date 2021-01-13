@@ -12,7 +12,17 @@ public class Zoo {
 
         Shark shark = new Shark("XYZ","White","Large",'F',25);
 
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(shark);
 
+        dog.speak();
+        cat.speak();
+        shark.speak();
+
+        dog.play();
+        cat.play();
+        shark.play();
 
 
     }

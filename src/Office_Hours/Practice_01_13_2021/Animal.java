@@ -21,6 +21,7 @@ public abstract class Animal { // ONLY for things tht are common for all sub cla
    }
 
    protected abstract void speak();
+   protected abstract void play();
 
     @Override
     public String toString() {
