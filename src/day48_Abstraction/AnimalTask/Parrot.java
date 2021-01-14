@@ -1,6 +1,6 @@
 package day48_Abstraction.AnimalTask;
 
-public class Parrot extends Animal implements Flyable, Playable{
+public final class Parrot extends Animal implements Flyable, Playable{
 
 
     public Parrot(String name, String breed, String size, char gender, int age) {

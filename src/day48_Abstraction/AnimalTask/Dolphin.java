@@ -1,6 +1,6 @@
 package day48_Abstraction.AnimalTask;
 
-public class Dolphin extends Animal implements Swimmable, Playable{
+public final class Dolphin extends Animal implements Swimmable, Playable{
     public Dolphin(String name, String breed, String size, char gender, int age) {
         super(name, breed, size, gender, age);
     }

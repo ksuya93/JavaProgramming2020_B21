@@ -1,6 +1,6 @@
 package day48_Abstraction.AnimalTask;
 
-public class Lion extends Animal implements Predator {
+public final class Lion extends Animal implements Predator {
     public Lion(String name, String breed, String size, char gender, int age) {
         super(name, breed, size, gender, age);
     }

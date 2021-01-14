@@ -1,6 +1,6 @@
 package day48_Abstraction.AnimalTask;
 
-public class Shark extends Animal implements Predator, Swimmable {
+public final class Shark extends Animal implements Predator, Swimmable {
     public Shark(String name, String breed, String size, char gender, int age) {
         super(name, breed, size, gender, age);
     }
