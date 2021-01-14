@@ -17,7 +17,6 @@ public abstract class Animal {
     public abstract void sleep();
 
 
-
     @Override
     public String toString() {
         return "{" +
