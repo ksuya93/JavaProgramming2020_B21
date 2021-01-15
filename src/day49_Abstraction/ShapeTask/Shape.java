@@ -5,6 +5,9 @@ public abstract class Shape {
     public final String name;
 
     public Shape(String name) {
+        if(name.isEmpty()){
+            throw new RuntimeException("Name can not be empty");
+        }
         this.name = name;
     }
 
