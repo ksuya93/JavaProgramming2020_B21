@@ -1,6 +1,6 @@
 package day49_Abstraction.ShapeTask;
 
-public class Circle extends Shape {
+public final class Circle extends Shape {
     public double r;
     public double d;
     public final static double PI = 3.14;
