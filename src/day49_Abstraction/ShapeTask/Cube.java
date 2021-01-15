@@ -26,5 +26,15 @@ public class Cube extends Shape implements Volume  {
         return 12 * side;
     }
 
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "name= '" + name + '\'' +
+                ", area= '" + area() + '\'' +
+                ", perimeter= '" + perimeter() + '\'' +
+                ", volume= '" + volume() + '\'' +
+                '}';
+    }
+
 
 }

@@ -16,16 +16,28 @@ public class Cylinder extends Shape implements Volume{
 
     @Override
     public double area() {
-        return 0;
+        return 2*PI *r*(r + h);
     }
 
     @Override
     public double perimeter() {
-        return 0;
+        return new Circle(r).perimeter() * h;
     }
 
     @Override
     public double volume() {
-        return 0;
+        return new Circle(r).area() * h;
     }
+
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "name= '" + name + '\'' +
+                ", area= '" + area() + '\'' +
+                ", perimeter= '" + perimeter() + '\'' +
+                ", volume= '" + volume() + '\'' +
+                '}';
+    }
+
+
 }
