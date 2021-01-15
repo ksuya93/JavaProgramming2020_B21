@@ -16,6 +16,8 @@ public class ShapeObjects {
 
         System.out.println(circle.getR());
 
+        System.out.println(rectangle.getW());
+
 
     }
 }
