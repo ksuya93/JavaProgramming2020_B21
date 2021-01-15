@@ -12,17 +12,18 @@ public class Cube extends Shape implements Volume  {
 
     @Override
     public double volume() {
-        return 0;
+        return side * side * side;
     }
 
     @Override
     public double area() {
-        return 0;
+        Square square =new Square(side);
+        return square.area() * 6;
     }
 
     @Override
     public double perimeter() {
-        return 0;
+        return 12 * side;
     }
 
 
