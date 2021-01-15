@@ -3,6 +3,7 @@ package day49_Abstraction.ShapeTask;
 public final class Circle extends Shape {
     private double r;
     private double d;
+
     public final static double PI = 3.14;
 
     public Circle(double r) {
@@ -40,4 +41,5 @@ public final class Circle extends Shape {
     public void setD(double d) {
         this.d = d;
     }
+
 }
