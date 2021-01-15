@@ -6,4 +6,14 @@ public  interface Volume {
 
     double volume();
 
+    /*
+    public static void main(String[] args) {
+        System.out.println(hasVolume);
+        System.out.println(Volume.hasVolume);
+
+        hasVolume = false;
+    }
+
+     */
+
 }

@@ -14,11 +14,11 @@ public final class Rectangle extends Shape{
 
     @Override
     public double area() {
-        return 0;
+        return w * l;
     }
 
     @Override
     public double perimeter() {
-        return 0;
+        return 2 * (w +l);
     }
 }
