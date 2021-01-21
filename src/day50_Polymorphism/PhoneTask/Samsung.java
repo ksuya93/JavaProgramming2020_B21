@@ -1,15 +1,15 @@
 package day50_Polymorphism.PhoneTask;
 
-public final class IPhone extends Phone implements AppleApps{
+public final class Samsung extends Phone implements AndroidApps {
 
+    public Samsung( String model, String size, String color, double price) {
+        super("Samsung", model, size, color, price);
 
-    public IPhone( String model, String size, String color, double price) {
-        super("Apple", model, size, color, price);
-        if(price> 1500){
-            throw new RuntimeException("Invalid Price, Iphone' price cannot more than $1500");
+        if(price > 1200){
+            throw new RuntimeException(" Invalid Price, Samsung' price cannot more than 1200");
         }
-    }
 
+    }
 
     @Override
     public void downloadApp() {
@@ -18,17 +18,17 @@ public final class IPhone extends Phone implements AppleApps{
 
     @Override
     public void text() {
-        System.out.println("Iphone is texting");
+        System.out.println("Samsung is texting");
     }
 
     @Override
     public void call() {
-        System.out.println("Iphone is calling");
+        System.out.println("Samsung is calling");
     }
 
     @Override
     public String toString() {
-        return "IPhone{" +
+        return "Samsung{" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", size='" + size + '\'' +
@@ -37,6 +37,5 @@ public final class IPhone extends Phone implements AppleApps{
                 ", OS='" + OS + '\'' +
                 '}';
     }
-}
 
-// Iphone  Phone  AppleApps
+}
