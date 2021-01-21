@@ -27,6 +27,7 @@ public abstract class Phone {
                 ", price=" + price +
                 '}';
     }
+
 }
 /*
 4. create an abstract class named Phone
