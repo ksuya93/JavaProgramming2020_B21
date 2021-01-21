@@ -1,6 +1,11 @@
 package day50_Polymorphism;
 
+import day49_Abstraction.RemoteDriverTask.ChromeDriver;
+import day49_Abstraction.RemoteDriverTask.CybertekDriver;
+import day49_Abstraction.RemoteDriverTask.FireFoxDriver;
+import day49_Abstraction.RemoteDriverTask.WebDriver;
 import day49_Abstraction.ShapeTask.Circle;
+import day49_Abstraction.ShapeTask.Cube;
 import day49_Abstraction.ShapeTask.Rectangle;
 import day49_Abstraction.ShapeTask.Shape;
 import day50_Polymorphism.PhoneTask.IPhone;
@@ -30,10 +35,41 @@ public class PolymorphismIntro {
 
         Shape shape;
 
-       // shape = new Circle(3);
-        shape = new Rectangle(3,4);
+      //  shape = new Circle(3);
+      //  shape = new Rectangle(3,4);
+        shape = new Cube(5);
 
         System.out.println(shape.area());
+
+
+        System.out.println("=============================");
+        String browserName = "chrome";
+
+       WebDriver driver;
+
+       switch (browserName){
+           case "firefox":
+                driver = new FireFoxDriver();
+                break;
+
+           case "chrome":
+               driver = new ChromeDriver();
+               break;
+
+           case "cybertek":
+               driver = new CybertekDriver();
+               break;
+
+           default:
+               throw new RuntimeException("Invalid browser Name");
+       }
+
+
+
+
+
+
+
 
 
 
